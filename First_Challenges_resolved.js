@@ -193,7 +193,7 @@ return result
 
 // Link to kata: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
 
-_________________________________________
+________________________________________
 
 //10 Find the stray number
 
