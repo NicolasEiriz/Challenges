@@ -47,7 +47,7 @@ function addBinary(a,b) {
 
 //Link of kata: https://www.codewars.com/kata/551f37452ff852b7bd000139
 
-_________________________________________
+________________________________________
 
 //4. Number of People in the Bus
 
