@@ -38,7 +38,6 @@ _________________________________________
 
 //3. add two numbers together and return their sum in binary
 
-
 function addBinary(a,b) {
 
   let result = a + b
