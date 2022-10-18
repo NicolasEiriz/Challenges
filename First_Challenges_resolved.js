@@ -29,8 +29,7 @@ function sumTwoSmallestNumbers(numbers) {
     numbers.splice(numbers.indexOf(result), 1)
   }
   
-   
-  return result
+     return result
   }
 
 //Link of kata:https://www.codewars.com/kata/558fc85d8fd1938afb000014
