@@ -38,3 +38,17 @@ function sumTwoSmallestNumbers(numbers) {
   }
 
 //Link of kata:https://www.codewars.com/kata/558fc85d8fd1938afb000014
+
+_________________________________________
+
+//3. add two numbers together and return their sum in binary
+
+
+function addBinary(a,b) {
+
+  let resul = a + b
+  
+  return resul.toString(2)
+}
+
+//Link of kata: https://www.codewars.com/kata/551f37452ff852b7bd000139
