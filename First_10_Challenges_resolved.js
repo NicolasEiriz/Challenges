@@ -27,14 +27,14 @@ _________________________________________
 
 function sumTwoSmallestNumbers(numbers) {  
   //loop in the array and return the two lowest numbers
-  let resul = 0
+  let result = 0
   
   for(let i = 0; i < 2; i++){
-    resul += Math.min(...numbers)
-    numbers.splice(numbers.indexOf(resul), 1)
+    result += Math.min(...numbers)
+    numbers.splice(numbers.indexOf(result), 1)
   }
   
-  return resul
+  return result
   }
 
 //Link of kata:https://www.codewars.com/kata/558fc85d8fd1938afb000014
@@ -46,9 +46,9 @@ _________________________________________
 
 function addBinary(a,b) {
 
-  let resul = a + b
+  let result = a + b
   
-  return resul.toString(2)
+  return result.toString(2)
 }
 
 //Link of kata: https://www.codewars.com/kata/551f37452ff852b7bd000139
