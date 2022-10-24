@@ -67,9 +67,9 @@ var number = function(busStops){
   
 let peopleInBus = 0
 
-busStops.forEach(people =>{
-    peopleInBus += people[0] 
-    peopleInBus -= people[1]
+busStops.forEach(stops =>{
+    peopleInBus += stops[0] 
+    peopleInBus -= stops[1]
    })
   
   return peopleInBus
