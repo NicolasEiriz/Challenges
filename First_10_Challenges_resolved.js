@@ -57,7 +57,7 @@ _________________________________________
 
 //4. Number of People in the Bus
 
-var number = function(busStops){
+let number = function(busStops){
   // Take an array of integer numbers
   // The first number in the array is the people who get into the bus
   // The second number in the array is the people who get off the bus
@@ -77,5 +77,28 @@ busStops.forEach(stops =>{
 }
 
 _________________________________________
+//5. 
 
+function divisors(integer) {
+  
+  //get into a number
+  //returns an array with all of the numbers divisors, except for 1 and the numver itself
+  
+  let result = []
+  //make a loop an return every number who is divisible by the input, return an array with all these numbers
+  
+  for(let i = 2; i < integer; i++){
+    if(integer % i === 0){
+      result.push(i)}
+}
+  
+ //if any number was divilse return 'the (number) is prime'
+  if(result.length === 0){
+ return `${integer} is prime`}
+ else{return result}
+  
+  
+}
+
+divisors(15)
 
