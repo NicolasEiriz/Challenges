@@ -52,3 +52,30 @@ function addBinary(a,b) {
 }
 
 //Link of kata: https://www.codewars.com/kata/551f37452ff852b7bd000139
+
+_________________________________________
+
+//4. Number of People in the Bus
+
+var number = function(busStops){
+  // Take an array of integer numbers
+  // The first number in the array is the people who get into the bus
+  // The second number in the array is the people who get off the bus
+  // Return a number of people who still in the bus after the last bus station (after the las array)
+  
+  // Loop in the array and return the people in the bus less the people who leave
+  
+let peopleInBus = 0
+
+busStops.forEach(people =>{
+    peopleInBus += people[0] 
+    peopleInBus -= people[1]
+   })
+  
+  return peopleInBus
+  
+}
+
+_________________________________________
+
+
