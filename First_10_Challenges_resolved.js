@@ -76,8 +76,9 @@ busStops.forEach(stops =>{
   
 }
 
+//link of kata: https://www.codewars.com/kata/5648b12ce68d9daa6b000099
 _________________________________________
-//5. 
+//5. Find the divisors!
 
 function divisors(integer) {
   
@@ -102,3 +103,42 @@ function divisors(integer) {
 
 divisors(15)
 
+//link of kata: https://www.codewars.com/kata/544aed4c4a30184e960010f4
+
+_________________________________________
+
+//6 Credit Card Mask
+
+// return masked string
+function maskify(cc) {
+  //convert the number into and array
+  if(cc.length < 4){
+    return cc
+  }
+  else{
+  let arr = cc.split('')
+  
+  //create a variable with the last four numbers
+  
+  let lastFour = arr.slice(arr.length - 4)
+  
+  //map into arr and return '#', without the las four numbers
+  
+  arr = arr.map(x=> '#').slice(0, arr.length -4)
+  
+  //push the last 4 numbers into the resul
+  
+  lastFour.forEach(num =>{
+    arr.push(num)
+  })
+  
+  return arr.join('')
+}
+
+}
+
+function maskify(4556364607935616)
+
+//link of kata: https://www.codewars.com/kata/5412509bd436bd33920011bc
+
+_________________________________________
