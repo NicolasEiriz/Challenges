@@ -142,3 +142,24 @@ function maskify(4556364607935616)
 //link of kata: https://www.codewars.com/kata/5412509bd436bd33920011bc
 
 _________________________________________
+//7 Shortest Word
+
+function findShort(s){
+  //convert the string into a array of words
+ 
+  let arrayOfWords = s.split(' ')
+  
+  //compare the words with reduce and return de shortest
+  
+  let shortest = arrayOfWords.reduce((lowest,current)=>
+   lowest.length < current.length ? lowest : current
+  )
+  
+  return shortest.length
+}
+
+findShort('bitcoin take over the world maybe who knows perhaps')
+
+//Link to kata: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
+
+  
