@@ -172,3 +172,28 @@ function accum(s) {
 }
 
 //Link to kata: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+
+_________________________________________
+
+//9 Testing 1-2-3
+
+let number=function(array){
+  // Takes a list of string and return each line prepended by the correct number
+  // Numbering starts at 1
+  // Example ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+  
+let number = 1
+let result = []
+
+if(array.length === 0){
+  return []
+} else{
+array.forEach(element =>{
+result.push(`${number}: ${element}`)
+  number += 1 }) 
+return result
+}
+ 
+}
+
+// Link to kata: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
