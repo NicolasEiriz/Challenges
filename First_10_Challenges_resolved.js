@@ -161,5 +161,14 @@ function findShort(s){
 findShort('bitcoin take over the world maybe who knows perhaps')
 
 //Link to kata: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
+_________________________________________
 
+//8 Mumbling  
+
+function accum(s) {
+  //convert the string into an array, map trough it and return the letter repeated x times, when x its their index number
   
+  return s.split('').map((letter,index) => `${letter.toUpperCase()}${letter.toLowerCase().repeat(index)}`).join('-')
+}
+
+//Link to kata: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
