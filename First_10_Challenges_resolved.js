@@ -222,3 +222,22 @@ function stray(numbers) {
 //Link to kata: https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
 
 _________________________________________
+//11
+
+function getDivisorsCnt(n){
+    // count the number of divisor of a positive integer
+  
+    let result = 0
+    
+  //loop and use the % operator to find all the divisible numbers
+    
+    for(let i = 1; i <= n; i++){
+      if(n % i === 0){
+        result += 1
+      }
+    }
+  return result
+}
+
+//Link to kata: https://www.codewars.com/kata/542c0f198e077084c0000c2e/solutions/javascript
+_________________________________________
