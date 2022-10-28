@@ -222,7 +222,7 @@ function stray(numbers) {
 //Link to kata: https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
 
 _________________________________________
-//11
+//11 Count the divisors of a number
 
 function getDivisorsCnt(n){
     // count the number of divisor of a positive integer
@@ -240,4 +240,20 @@ function getDivisorsCnt(n){
 }
 
 //Link to kata: https://www.codewars.com/kata/542c0f198e077084c0000c2e/solutions/javascript
+_________________________________________
+
+//12 Get the Middle Character
+
+function getMiddle(s)
+{
+  let sLength = s.length
+  if(sLength % 2 === 0){
+    return s.slice(sLength / 2 - 1, sLength / 2 + 1)
+  } else{
+    return s.slice(Math.floor(sLength / 2), Math.floor(sLength / 2 + 1) )
+  }
+ 
+}
+
+//Link to kata: https://www.codewars.com/kata/56747fd5cb988479af000028
 _________________________________________
