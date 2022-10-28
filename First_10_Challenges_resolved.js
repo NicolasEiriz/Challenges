@@ -197,3 +197,28 @@ return result
 }
 
 // Link to kata: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
+
+_________________________________________
+
+//10 Find the stray number
+
+function stray(numbers) {
+
+  //given an odd-length array of integers, return the different number
+
+  //loop in the array if the number is the same than the next one keep moving, otherwise return that number
+ 
+  let result = 0
+ 
+  
+  numbers.forEach(num =>{
+    if(num !== numbers[1]){
+      result = num
+    }
+  })
+  return result
+}
+
+//Link to kata: https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
+
+_________________________________________
