@@ -275,3 +275,23 @@ if(yourPoints > averageClassPoints / classPoints.length){
 
 //Link to kata: https://www.codewars.com/kata/5601409514fc93442500010b
 
+_________________________________________
+
+// 14 Vowel Count
+
+function getCount(str) {
+  //convert the string into an array
+  let arr = str.split('')
+  let result = 0
+  
+  //loop and if we found a vowels add 1 to result
+  
+  arr.forEach(letter =>{
+    if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+       result += 1
+       }
+  })
+  return result;
+}
+
+//Link to kata: https://www.codewars.com/kata/54ff3102c1bad923760001f3
