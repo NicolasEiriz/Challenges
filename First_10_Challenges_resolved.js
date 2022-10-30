@@ -1,5 +1,6 @@
 //Challenges resolved
 
+
 //1. Perfect Square
 
 function findNextSquare(sq) {
@@ -14,7 +15,6 @@ function findNextSquare(sq) {
   
  
 }
-
 
 function findNextSquare(122)
 
@@ -110,6 +110,7 @@ _________________________________________
 //6 Credit Card Mask
 
 // return masked string
+
 function maskify(cc) {
   //convert the number into and array
   if(cc.length < 4){
@@ -142,7 +143,8 @@ function maskify(4556364607935616)
 //link of kata: https://www.codewars.com/kata/5412509bd436bd33920011bc
 
 _________________________________________
-//7 Shortest Word
+
+// 7 Shortest Word
 
 function findShort(s){
   //convert the string into a array of words
@@ -222,6 +224,7 @@ function stray(numbers) {
 //Link to kata: https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
 
 _________________________________________
+
 //11 Count the divisors of a number
 
 function getDivisorsCnt(n){
@@ -295,3 +298,6 @@ function getCount(str) {
 }
 
 //Link to kata: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+
+_________________________________________
+
