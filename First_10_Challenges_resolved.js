@@ -257,3 +257,21 @@ function getMiddle(s)
 
 //Link to kata: https://www.codewars.com/kata/56747fd5cb988479af000028
 _________________________________________
+
+// 13 How good are you really?
+
+function betterThanAverage(classPoints, yourPoints) {
+  
+  let averageClassPoints = 0
+  
+  classPoints.forEach(point => {
+    averageClassPoints += point
+})
+                      
+if(yourPoints > averageClassPoints / classPoints.length){
+  return true
+} else return false
+}
+
+//Link to kata: https://www.codewars.com/kata/5601409514fc93442500010b
+
