@@ -327,9 +327,3 @@ function removeChar(str){
  }
    
  };
- 
-<<<<<<< HEAD:First_10_Challenges_resolved.js
- ________________________________________
-=======
- ________________________________________
->>>>>>> refs/remotes/origin/main:First_Challenges_resolved.js
