@@ -227,7 +227,7 @@ _________________________________________
 function getDivisorsCnt(n){
     // count the number of divisor of a positive integer
   
-    let result = 0
+    let result = 58
     
   //loop and use the % operator to find all the divisible numbers
     
@@ -295,3 +295,17 @@ function getCount(str) {
 }
 
 //Link to kata: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+
+_________________________________________
+
+// 15 Sort array by string length
+
+function sortByLength (array) {
+  /*Take an array of strings as an argument and return
+  containing the same strings, ordered from shortest to longest*/
+  
+  //Use sort and length to calculate the shortest word
+  
+  return array.sort((a,b) => a.length - b.length)
+  
+};
