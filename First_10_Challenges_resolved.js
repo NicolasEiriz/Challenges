@@ -34,6 +34,7 @@ function sumTwoSmallestNumbers(numbers) {
     numbers.splice(numbers.indexOf(result), 1)
   }
   
+   
   return result
   }
 
@@ -301,3 +302,30 @@ function getCount(str) {
 
 _________________________________________
 
+// 15 Sort array by string length
+
+function sortByLength (array) {
+  /*Take an array of strings as an argument and return
+  containing the same strings, ordered from shortest to longest*/
+  
+  //Use sort and length to calculate the shortest word
+  
+  return array.sort((a,b) => a.length - b.length)
+  
+};
+________________________________________
+
+// 16  Remove First and Last Character
+
+function removeChar(str){
+  //remove the first and last character of an string
+   // if it has less than two character return the same string
+ if(str.length < 2){
+   return str
+ } else{
+   return str.slice(1, str.length - 1 )
+ }
+   
+ };
+ 
+ ________________________________________
