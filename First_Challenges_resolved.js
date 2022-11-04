@@ -327,3 +327,24 @@ function removeChar(str){
  }
    
  };
+
+ ________________________________________
+
+ //17 Make a function that does arithmetic!
+
+ function arithmetic(a, b, operator){
+  //Given two numbers and an arithmetic operator, return the result of the two number having that operator used on them
+  
+  if(operator === 'add'){
+    return a + b
+  } else if(operator === 'subtract'){
+    return a - b
+  } else if(operator === 'multiply'){
+    return a * b
+  } else if (operator === 'divide'){
+    return a / b
+  }
+}
+
+________________________________________
+
