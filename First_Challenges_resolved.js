@@ -357,3 +357,26 @@ function roundToNext5(n){
   }
   return n
 }
+
+________________________________________
+
+//19 Sum without highest and lowest number
+
+//Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
+//Example: { 6, 2, 1, 8, 10 } => 16
+
+function sumArray(array) {
+  if(!array){
+    return 0
+  } else{
+  array.sort((a,b) => a - b)
+  array.pop()
+  array.shift()
+  let result = 0
+  
+  for(let i = 0; i < array.length; i++){
+    result += array[i]
+  }
+    return result
+}
+}
