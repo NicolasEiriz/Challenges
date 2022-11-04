@@ -348,3 +348,12 @@ function removeChar(str){
 
 ________________________________________
 
+//18 Round up to the next multiple of 5
+
+function roundToNext5(n){
+  // given an integer as input round it to the next multiple of 5
+  while(n % 5 !== 0){
+    n++
+  }
+  return n
+}
