@@ -380,3 +380,19 @@ function sumArray(array) {
     return result
 }
 }
+
+________________________________________
+
+//20 Friend or Foe?
+
+//hat filters a list of strings and returns a list with only your friends name in it.
+//Example: friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+
+
+function friend(friends){
+  let myFriends = []
+  for(let i = 0; i < friends.length; i++){
+    if(friends[i].length === 4){
+      myFriends.push(friends[i])}
+    }
+  return myFriends}
