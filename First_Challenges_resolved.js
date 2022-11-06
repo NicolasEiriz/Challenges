@@ -418,3 +418,36 @@ ________________________________________
     
     return s.split('').map((letter,index) => `${letter.toUpperCase()}${letter.toLowerCase().repeat(index)}`).join('-')
   }
+
+  ________________________________________
+  //23 Square Every Digit
+
+  function squareDigits(num){
+    //transform de number in an array, map trough it and return each number squared
+    
+    let resul = String(num).split('').map(x => x**2).join('')
+    
+      
+    return Number(resul)
+  }
+
+  ________________________________________
+
+  //23 Vowel Count
+
+  function getCount(str) {
+    //convert the string into an array
+    let arr = str.split('')
+    let resul = 0
+    
+    //loop and if we found a vowels add 1 to result
+    
+    arr.forEach(letter =>{
+      if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+         resul += 1
+         }
+    })
+    return resul;
+  }
+
+  ________________________________________
