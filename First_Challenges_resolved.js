@@ -410,3 +410,11 @@ ________________________________________
   }
 
   ________________________________________
+
+  //22 Mumbling
+
+  function accum(s) {
+    //convert the string into an array, map trough it and return the letter repeated x times, when x its their index number
+    
+    return s.split('').map((letter,index) => `${letter.toUpperCase()}${letter.toLowerCase().repeat(index)}`).join('-')
+  }
