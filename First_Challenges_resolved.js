@@ -451,3 +451,26 @@ ________________________________________
   }
 
   ________________________________________
+
+  //24 Sum of a sequence
+
+  const sequenceSum = (begin, end, step) => {
+    // returns the sum of a sequence of integers
+    /*example 2,2,2 --> 2
+              2,6,2 --> 12 (2 + 4 + 6)
+              1,5,1 --> 15 (1 + 2 + 3 + 4 + 5)
+              1,5,3  --> 5 (1 + 4)*/
+    //If begin value is greater than the end, function should returns 0
+    
+    let result = 0
+    if(begin > end){
+      return 0
+    } else{
+      for(let i = begin; i <= end; i+= step){
+        result += i
+      }
+      return result
+    }
+  }
+
+  ________________________________________
