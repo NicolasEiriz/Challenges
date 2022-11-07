@@ -488,3 +488,17 @@ ________________________________________
   }
 
   ________________________________________
+
+
+  //26 Remove anchor from URL
+
+  function removeUrlAnchor(url){
+    //  returns the url with anything after the anchor (#) removed
+    
+    if(url.includes('#')){
+      return url.slice(0,url.indexOf('#'))
+    } else{
+      return url
+    }
+  }
+  ________________________________________
