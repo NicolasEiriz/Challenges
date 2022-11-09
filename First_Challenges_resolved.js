@@ -502,3 +502,21 @@ ________________________________________
     }
   }
   ________________________________________
+
+  //27 Small enough? - Beginner
+
+  /*//given an array and a limit value check all the values in the array, if one is below or equal to the limit value return true, else return false*/
+
+
+function smallEnough(a, limit){
+  let result = 0
+    a.forEach(number =>{
+        if(number < limit || number === limit){
+            result++}})
+              
+        if(result === a.length){
+        return true} 
+          else{return false}
+}
+
+________________________________________
