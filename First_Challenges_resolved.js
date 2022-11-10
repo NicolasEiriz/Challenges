@@ -520,3 +520,16 @@ function smallEnough(a, limit){
 }
 
 ________________________________________
+
+//28 Find the capitals
+
+let capitals = function (word) {
+  // take a string as argument and return an ordered list containing the index of all capital letter
+ let result = [] 
+  word.split('').forEach(capital =>{
+    if(capital.match('[A-Z]')){
+    result.push(word.indexOf(capital))}})
+  return result
+}
+
+________________________________________
