@@ -533,3 +533,26 @@ let capitals = function (word) {
 }
 
 ________________________________________
+
+//29 Anagram Detection
+
+// write the function isAnagram
+/*return true if the two arguments given are anagrams of each other; return false otherwise.
+
+Examples
+"foefet" is an anagram of "toffee"
+
+"Buckethead" is an anagram of "DeathCubeK"*/
+
+let isAnagram = function(test, original) {
+ 
+  
+  let string1 = test.toLowerCase().split('').sort().join('')
+     let string2 = original.toLowerCase().split('').sort().join('')
+     if(string1 === string2){
+         return true}else{return false}
+   }
+
+   ________________________________________
+
+   
