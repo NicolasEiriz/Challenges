@@ -610,4 +610,28 @@ function checkExam(array1, array2) {
    }
 
    ________________________________________
+   //32 Maximum Multiple
+
+
+   /*Task
+ Given a Divisor and a Bound , Find the largest integer N , Such That ,
+ 
+ Conditions :
+ N is divisible by divisor
+ 
+ N is less than or equal to bound
+ 
+ N is greater than 0.*/
    
+   function maxMultiple(divisor, bound){
+    let result = 0
+    
+    for(let i = 0; i <= bound; i++){
+      if(i % divisor === 0){
+        result = i
+      }
+    }  
+  return result
+   }
+
+   ________________________________________
