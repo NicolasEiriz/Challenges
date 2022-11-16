@@ -635,3 +635,27 @@ function checkExam(array1, array2) {
    }
 
    ________________________________________
+
+  //33 Simple Fun #176: Reverse Letter
+
+  /*Given a string str, reverse it and omit all non-alphabetic characters.
+
+Example
+For str = "krishan", the output should be "nahsirk".
+
+For str = "ultr53o?n", the output should be "nortlu".*/
+
+function reverseLetter(str) {
+  
+  let letters = /[a-z]/gi
+  
+  let result = str.split('')
+  
+  result = result.reverse().join('')
+  
+  result = result.match(letters)
+  
+  return result.join('')
+  }
+
+  ________________________________________
