@@ -1,6 +1,5 @@
 //Challenges resolved
 
-
 //1. Perfect Square
 
 function findNextSquare(sq) {
