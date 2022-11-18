@@ -11,8 +11,6 @@ function findNextSquare(sq) {
     }
   return sq  
   } else{return -1}
-  
- 
 }
 
 function findNextSquare(122)
