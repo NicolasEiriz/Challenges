@@ -659,3 +659,16 @@ function reverseLetter(str) {
   }
 
   ________________________________________
+
+  //34 Largest 5 digit number in a series
+
+  function solution(digits){
+    let result = 0
+    //loop into the string and extracts 5 consecutive digits, if it greater than the previus 5 numbers assign it to result
+    for(let i = 0; i<digits.length; i++){
+      if(Number(digits.substr(i,5)) > result){
+        result = Number(digits.substr(i,5))
+      }
+    }
+    return result
+  }
