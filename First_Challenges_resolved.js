@@ -663,3 +663,22 @@ function reverseLetter(str) {
     }
     return result
   }
+
+  ______________________________________
+
+  //35 Form The Minimum
+
+  function minValue(values){
+    //create an array
+    let result = []
+    //loop in the array and include the number if it not in the result variable
+    for(let i = 0; i < values.length;i++){
+      if(!result.includes(values[i])){
+        result.push(values[i])
+      }
+    }
+    
+    return Number(result.sort().join(''))
+  }
+
+  ______________________________________
