@@ -682,3 +682,29 @@ function reverseLetter(str) {
   }
 
   ______________________________________
+
+  //36 Summing a number's digits
+
+  /*Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits.
+
+For example: (Input --> Output)
+
+10 --> 1
+99 --> 18
+-32 --> 5*/
+
+
+function sumDigits(number) {
+  
+  //convert the number into an array
+  let arr = String(Math.abs(number)).split('')
+  
+  arr = arr.map(num=>Number(num))
+  
+ 
+  return arr.reduce((current, previous) => previous + current)
+  
+  
+}
+
+______________________________________
