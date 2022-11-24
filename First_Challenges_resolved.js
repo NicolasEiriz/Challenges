@@ -707,3 +707,26 @@ function sumDigits(number) {
   
 }
 ______________________________________
+
+//36 Fix string case
+
+function solve(s){
+   
+  let lowerCase = 0
+  let upperCase = 0
+  
+   //convert the string in an array an check individual letter
+  s.split('').forEach(letter=>{
+    if(letter === letter.toUpperCase()){
+       upperCase += 1}
+       else{
+      lowerCase += 1
+    }
+  })
+  if (upperCase > lowerCase){
+    return s.toUpperCase()
+  } else{return s.toLowerCase()}
+  
+}
+
+______________________________________
