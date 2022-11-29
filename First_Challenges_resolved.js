@@ -728,5 +728,5 @@ function solve(s){
   } else{return s.toLowerCase()}
   
 }
-
 ______________________________________
+
