@@ -730,4 +730,17 @@ function solve(s){
 }
 ______________________________________
 
+//37 The Coupon Code
 
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+  
+  //use Date.parse to compare the dates
+  
+  if(enteredCode === correctCode && Date.parse(currentDate) <= Date.parse(expirationDate)){
+    return true
+  } else{
+    return false
+  }
+  }
+
+  ______________________________________
