@@ -754,5 +754,5 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
 
  }
 
- ______________________________________
+______________________________________
  
