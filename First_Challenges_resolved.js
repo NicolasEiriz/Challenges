@@ -1,6 +1,5 @@
 //Challenges resolved
 
-
 //1. Perfect Square
 
 function findNextSquare(sq) {
@@ -12,18 +11,14 @@ function findNextSquare(sq) {
     }
   return sq  
   } else{return -1}
-  
- 
 }
 
 function findNextSquare(122)
 
 //Link of kata: https://www.codewars.com/kata/56269eb78ad2e4ced1000013
-
 _________________________________________
 
 //2. Sum of two lowest positive integers
-
 
 function sumTwoSmallestNumbers(numbers) {  
   //loop in the array and return the two lowest numbers
@@ -34,8 +29,7 @@ function sumTwoSmallestNumbers(numbers) {
     numbers.splice(numbers.indexOf(result), 1)
   }
   
-   
-  return result
+     return result
   }
 
 //Link of kata:https://www.codewars.com/kata/558fc85d8fd1938afb000014
@@ -43,7 +37,6 @@ function sumTwoSmallestNumbers(numbers) {
 _________________________________________
 
 //3. add two numbers together and return their sum in binary
-
 
 function addBinary(a,b) {
 
@@ -54,7 +47,7 @@ function addBinary(a,b) {
 
 //Link of kata: https://www.codewars.com/kata/551f37452ff852b7bd000139
 
-_________________________________________
+________________________________________
 
 //4. Number of People in the Bus
 
@@ -195,13 +188,11 @@ array.forEach(element =>{
 result.push(`${number}: ${element}`)
   number += 1 }) 
 return result
-}
- 
+  }
 }
 
 // Link to kata: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
-
-_________________________________________
+______________________________________
 
 //10 Find the stray number
 
@@ -673,4 +664,99 @@ function reverseLetter(str) {
     return result
   }
 
+<<<<<<< HEAD
 ________________________________________
+=======
+  ______________________________________
+
+  //35 Form The Minimum
+
+  function minValue(values){
+    //create an array
+    let result = []
+    //loop in the array and include the number if it not in the result variable
+    for(let i = 0; i < values.length;i++){
+      if(!result.includes(values[i])){
+        result.push(values[i])
+      }
+    }
+    
+    return Number(result.sort().join(''))
+  }
+
+  ______________________________________
+
+  //36 Summing a number's digits
+
+  /*Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits.
+
+For example: (Input --> Output)
+
+10 --> 1
+99 --> 18
+-32 --> 5*/
+
+
+function sumDigits(number) {
+  
+  //convert the number into an array
+  let arr = String(Math.abs(number)).split('')
+  
+  arr = arr.map(num=>Number(num))
+  
+ 
+  return arr.reduce((current, previous) => previous + current)
+  
+  
+}
+______________________________________
+
+//36 Fix string case
+
+function solve(s){
+   
+  let lowerCase = 0
+  let upperCase = 0
+  
+   //convert the string in an array an check individual letter
+  s.split('').forEach(letter=>{
+    if(letter === letter.toUpperCase()){
+       upperCase += 1}
+       else{
+      lowerCase += 1
+    }
+  })
+  if (upperCase > lowerCase){
+    return s.toUpperCase()
+  } else{return s.toLowerCase()}
+  
+}
+______________________________________
+
+//37 The Coupon Code
+
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+  
+  //use Date.parse to compare the dates
+  
+  if(enteredCode === correctCode && Date.parse(currentDate) <= Date.parse(expirationDate)){
+    return true
+  } else{
+    return false
+  }
+  }
+
+  ______________________________________
+
+  //38 Disemvowel Trolls
+
+  //write a function that takes a string and return a new string with all vowels removed.
+
+  function disemvowel(str) {
+    return str.replace(/[aeiou]/gi, '')
+
+ }
+______________________________________
+
+ 
+>>>>>>> 16697a59da5e1531059bbb75cf682be0a8a2cb25
