@@ -753,7 +753,6 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
     return str.replace(/[aeiou]/gi, '')
 
  }
-
 ______________________________________
 
  
