@@ -138,7 +138,7 @@ function maskify(4556364607935616)
 
 _________________________________________
 
-// 7 Shortest Words
+// 7 Shortest Word
 
 function findShort(s){
   //convert the string into a array of words
