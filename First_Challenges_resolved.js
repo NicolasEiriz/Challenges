@@ -33,7 +33,6 @@ function sumTwoSmallestNumbers(numbers) {
   }
 
 //Link of kata:https://www.codewars.com/kata/558fc85d8fd1938afb000014
-
 _________________________________________
 
 //3. add two numbers together and return their sum in binary
