@@ -71,6 +71,7 @@ busStops.forEach(stops =>{
 
 //link of kata: https://www.codewars.com/kata/5648b12ce68d9daa6b000099
 _________________________________________
+
 //5. Find the divisors!
 
 function divisors(integer) {
