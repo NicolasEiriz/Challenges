@@ -21,6 +21,7 @@ _________________________________________
 //2. Sum of two lowest positive integers
 
 function sumTwoSmallestNumbers(numbers) {  
+  
   //loop in the array and return the two lowest numbers
   let result = 0
   
