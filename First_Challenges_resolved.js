@@ -81,6 +81,7 @@ function divisors(integer) {
   //returns an array with all of the numbers divisors, except for 1 and the numver itself
   
   let result = []
+  
   //make a loop an return every number who is divisible by the input, return an array with all these numbers
   
   for(let i = 2; i < integer; i++){
