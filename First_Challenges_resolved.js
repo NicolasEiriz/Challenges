@@ -90,11 +90,11 @@ function divisors(integer) {
 }
   
  //if any number was divilse return 'the (number) is prime'
-  if(result.length === 0){
- return `${integer} is prime`}
- else{return result}
-  
-  
+
+ if(result.length === 0){
+  return `${integer} is prime`}
+  else{return result}
+ 
 }
 
 divisors(15)
