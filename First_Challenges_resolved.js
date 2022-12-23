@@ -182,6 +182,7 @@ let number=function(array){
   // Example ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
   
 let number = 1
+
 let result = []
 
 if(array.length === 0){
