@@ -175,7 +175,7 @@ _________________________________________
 
 //9 Testing 1-2-3
 
-let number=function(array){
+let number = function(array){
   
   // Takes a list of string and return each line prepended by the correct number
   // Numbering starts at 1
