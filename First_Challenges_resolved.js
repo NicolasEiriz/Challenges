@@ -760,7 +760,13 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
     return str.replace(/[aeiou]/gi, '')
 
  }
-______________________________________
+__________________________________
 
- 
->>>>>>> 16697a59da5e1531059bbb75cf682be0a8a2cb25
+// 39 Remove String Spaces
+
+function noSpace(x){
+  //Remove the spaces from string and return the resultant string
+  //use trim method to remove the spaces
+  
+ return x.replaceAll(' ', '')
+}
