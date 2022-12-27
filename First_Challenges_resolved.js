@@ -770,3 +770,16 @@ function noSpace(x){
   
  return x.replaceAll(' ', '')
 }
+
+______________________________________
+
+//40 Convert a Number to a String!
+
+function numberToString(num) {
+  // Transform a number into a string
+  //the num will be an integer
+  //examples: 123 -> "123", 999 -> "999", -100 --> "-100"
+  
+  //use toString method to convert the num
+  return num.toString()
+}
