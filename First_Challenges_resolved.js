@@ -781,5 +781,7 @@ function numberToString(num) {
   //examples: 123 -> "123", 999 -> "999", -100 --> "-100"
   
   //use toString method to convert the num
+  
   return num.toString()
+  
 }
