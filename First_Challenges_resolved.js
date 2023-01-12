@@ -787,3 +787,20 @@ function numberToString(num) {
 }
 
 ____________________________________
+
+//41 Abbreviate a Two Word Name
+
+function abbrevName(name){
+  //take two words and return two capital letters with a dot separating them
+  //convert the string in an array
+
+let arr = name.split(' ')
+let firstName = arr[0]
+let secondName = arr[1]
+
+return  `${firstName[0].toUpperCase()}.${secondName[0].toUpperCase()}`
+
+
+}
+
+______________________________________
