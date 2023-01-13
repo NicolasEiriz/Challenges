@@ -804,3 +804,13 @@ return  `${firstName[0].toUpperCase()}.${secondName[0].toUpperCase()}`
 }
 
 ______________________________________
+
+
+//42 Returning Strings
+
+function greet(name){
+  //return a greeting statement using the 'name' parameter
+  //example -> "Hello, <name> how are you doing today?"
+  
+  return `Hello, ${name} how are you doing today?`
+}
