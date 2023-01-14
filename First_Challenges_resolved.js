@@ -814,3 +814,18 @@ function greet(name){
   
   return `Hello, ${name} how are you doing today?`
 }
+
+______________________________________
+//43 You only need one
+
+function check(a, x) {
+  // given an array a and value x, check if x is in that array
+  //return true if the array contains de value, false if not
+  let result
+  a.forEach(value=>{
+    if(value === x){result = true}
+  })
+  return result || false
+}
+
+______________________________________
