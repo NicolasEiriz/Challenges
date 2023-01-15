@@ -829,3 +829,26 @@ function check(a, x) {
 }
 
 ______________________________________
+
+// 44 Are You Playing Banjo?
+
+function areYouPlayingBanjo(name) {
+  
+  //take the name and look if starts with a R or r
+  
+  if(name[0] === 'R' || name[0] === 'r'){
+    
+    // if your name starts with the letter "R" or lower case "r" return 'plays banjo" 
+    
+    return `${name} plays banjo`
+  } 
+  else{
+    
+    //if not return 'does not play banjo'
+    
+    return `${name} does not play banjo`
+  } 
+  
+}
+
+______________________________________
