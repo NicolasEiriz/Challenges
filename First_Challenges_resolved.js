@@ -852,3 +852,21 @@ function areYouPlayingBanjo(name) {
 }
 
 ______________________________________
+
+//45 Reversed Words
+
+function reverseWords(str){
+  //reverse all of the words within the string passed in
+  //words are separated by exactly one space
+  //example: "The greatest victory" --> "victory greatest The"
+  
+  //convert the string in an array and separate with words
+  let result = str.split(' ')
+  
+  //use an array method to reverse them, converted to a string and return it 
+  
+  return result.reverse().join(" "); 
+
+}
+
+______________________________________
