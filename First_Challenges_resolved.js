@@ -870,3 +870,14 @@ function reverseWords(str){
 }
 
 ______________________________________
+
+//46 DNA to RNA Conversion
+
+function DNAtoRNA(dna) {
+  // create a function which returns an RNA sequence from the given DNA sequence
+  // Replace any 'T' character in the string with a 'U'
+  
+  return dna.replaceAll(/T/gi, 'U')
+}
+
+______________________________________
