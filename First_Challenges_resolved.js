@@ -897,3 +897,16 @@ let countSheep = function (num){
   return result;
 }
 ______________________________________
+
+//48 Convert a string to an array
+
+function stringToArray(string){
+
+	// convert the string into an array of words
+  // Example: "Robin Singh" ==> ["Robin", "Singh"]
+
+  return string.split(' ')
+
+}
+
+______________________________________
