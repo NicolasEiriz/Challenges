@@ -910,3 +910,33 @@ function stringToArray(string){
 }
 
 ______________________________________
+
+//49 Total amount of points
+
+function points(games) {
+  //  There are an array with a collection of strings
+  // Each match is represented by a string in the format 'x:y'
+  // x is our team's score and y is our opponents score
+  // Points are awarded for each match as follows:
+  // if x > y: 3 points (win)
+  // if x < y: 0 points (loss)
+  // if x = y: 1 point (tie)
+  //takes this collection and returns the number of points our team (x)
+  //Example: ["3:1", "2:2", "0:1"] -> 4 points
+  
+  //Create a variable that will hold the total of points
+  let totalPoints = 0
+  
+  // Look in one element of the array at a time a compare the first substring with the last one
+  games.forEach(game=>{
+    if(Number(game[0]) > Number(game[game.length-1])){
+      totalPoints += 3
+    } else if ((Number(game[0])) < Number(game[game.length-1])){
+      totalPoints += 0
+    } else {
+      totalPoints += 1
+    }
+  })
+  
+  return totalPoints
+  ______________________________________
