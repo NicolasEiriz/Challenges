@@ -939,4 +939,25 @@ function points(games) {
   })
   
   return totalPoints
+}
+
+console.log(points(["1:0","2:0","3:0","4:0","2:1","3:1","4:1","3:2","4:2","4:3"], 30))
   ______________________________________
+
+  //50 Do I get a bonus?
+
+// takes in two arguments
+//salary will be an integer => 5, 0, 1, 5
+//if bonus us true, multiply the salary 10 times
+//if bonus is false return the salary
+
+function bonusTime(salary, bonus) {
+  
+  //use conditionals
+  
+  if(bonus){return `£${salary *= 10}`}; 
+  
+  return `£${salary}`
+}
+
+______________________________________
