@@ -961,3 +961,17 @@ function bonusTime(salary, bonus) {
 }
 
 ______________________________________
+
+//51 Grasshopper - Personalized Message
+
+function greet (name, owner) {
+  // return a personalized greeting
+  //take two parameters
+  //if name equals owner -> 'Hello boss'
+  //otherwise -> 'Hello guest'
+
+return name === owner ? 'Hello boss' : 'Hello guest'
+
+}
+
+______________________________________
