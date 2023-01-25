@@ -975,3 +975,15 @@ return name === owner ? 'Hello boss' : 'Hello guest'
 }
 
 ______________________________________
+
+// 52 The Feast of Many Beasts
+
+function feast(beast, dish) {
+  //take in two parameters
+  // if the dish start and end with the same letter as the animal's name return true
+  
+  return dish[0] === beast[0] && dish[dish.length - 1] === beast[beast.length - 1] ? true : false
+    
+}
+
+______________________________________
