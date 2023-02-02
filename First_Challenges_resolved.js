@@ -987,3 +987,28 @@ function feast(beast, dish) {
 }
 
 ______________________________________
+
+
+//53 Remove duplicate words
+
+function removeDuplicateWords (s) {
+  // Remove duplicate words
+  
+  //Convert the input in an array
+  let userInput = s.split(' ')
+  
+  //create a variable to hold the words that are not repeated
+  let uniqueWords = []
+  
+  //Iterate in the array and if the words is not included in uniqueWords add them
+  
+  userInput.forEach(word=>{
+    if(!uniqueWords.includes(word)){
+      uniqueWords.push(word)
+    }
+  })
+  
+  return uniqueWords.join(' ')
+  }
+
+  ______________________________________
