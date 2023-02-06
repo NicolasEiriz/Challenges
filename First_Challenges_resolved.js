@@ -1011,5 +1011,28 @@ function removeDuplicateWords (s) {
   return uniqueWords.join(' ')
   }
   
-
   ______________________________________
+
+  //54 Coding Meetup #1 - Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe
+
+  function countDevelopers(list) {
+    // your awesome code here :)
+    
+    //given an array of objects return the number of JavaScript developers coming from Europe
+    //If, there are no JavaScript developers from Europe then your function should return 0.
+    
+    let result = 0  
+    
+    //Look in each element of the array and search if the continent is Europe and the language is javascript
+    
+    list.forEach(developer=>{
+      if(developer.continent === 'Europe' && developer.language === 'JavaScript'){
+        result += 1
+      }
+    })
+    
+    return result
+      
+    }
+
+    ______________________________________
