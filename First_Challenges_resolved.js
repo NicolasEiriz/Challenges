@@ -1016,7 +1016,7 @@ function removeDuplicateWords (s) {
   //54 Coding Meetup #1 - Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe
 
   function countDevelopers(list) {
-    // your awesome code here :)
+    // your awesome code here
     
     //given an array of objects return the number of JavaScript developers coming from Europe
     //If, there are no JavaScript developers from Europe then your function should return 0.
