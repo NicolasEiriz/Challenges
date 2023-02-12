@@ -1010,7 +1010,8 @@ function removeDuplicateWords (s) {
   
   return uniqueWords.join(' ')
   }
-    ______________________________________
+  
+  ______________________________________
 
   //54 Coding Meetup #1 - Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe
 
