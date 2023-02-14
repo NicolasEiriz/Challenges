@@ -1036,3 +1036,71 @@ function removeDuplicateWords (s) {
     }
 
     ______________________________________
+
+//55 Alphabet war
+
+//Accept a string that consist of only small letters amd return who wins
+//Left side
+//w - 4,  p - 3,  b - 2,  s - 1
+
+//Right side
+// m - 4,  q - 3,  d - 2, z - 1
+
+function alphabetWar(fight)
+{
+  let stringSplited = fight.split('')
+  let leftPoints = 0
+  let rightPoints = 0
+  
+  stringSplited.forEach(letter=>{
+    
+    switch (letter) {
+        
+        case 'w':
+        leftPoints += 4
+        break;
+        
+        case 'p':
+        leftPoints += 3
+        break;
+        
+        case 'b':
+        leftPoints += 2
+        break;
+        
+        case 's':
+        leftPoints += 1
+        break;
+        
+        case 'm':
+        rightPoints += 4
+        break;
+        
+        case 'q':
+        rightPoints += 3
+        break;
+        
+        case 'd':
+        rightPoints += 2
+        break;
+        
+        case 'z':
+        rightPoints += 1
+        break;
+        
+        
+    }
+    
+  })
+    if(leftPoints > rightPoints){
+      return 'Left side wins!'
+    } else if(rightPoints > leftPoints){
+      return 'Right side wins!'
+    } else{
+      return "Let's fight again!"
+    }
+  }
+
+  alphabetWar('zsssad')
+
+  ______________________________________
