@@ -1118,6 +1118,7 @@ function alphabetWar(fight)
 
 function correct(string)
 
+
 {
   const replaceWords ={
     5: 'S',
