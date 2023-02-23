@@ -1117,7 +1117,6 @@ function alphabetWar(fight)
 // The test cases contain numbers only by mistake.
 
 function correct(string)
-
 {
   const replaceWords ={
     5: 'S',
